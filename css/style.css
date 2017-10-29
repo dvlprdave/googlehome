@@ -61,12 +61,41 @@ p {
 
 /* info */
 
+.bg-img {
+  background-image: url('../img/livingroom.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 500px;
+}
+
+.google-text {
+  background: #fff;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+
+}
+
 #info1 .info-right {
   margin-top: 100px;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+}
+
 #info2 {
   margin: 20px 0 60px 0;
+  position: relative;
 }
 
 #contact {
