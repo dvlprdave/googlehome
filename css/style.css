@@ -79,6 +79,10 @@ p {
   margin-top: 100px;
 }
 
+.info-left, .info-right {
+  padding: 0 35px;
+}
+
 .flex {
   display: flex;
   flex-direction: row;
